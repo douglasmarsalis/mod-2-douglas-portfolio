@@ -1,25 +1,59 @@
-/*
+
 :root {
-    --headerBackgroundColor: ;
-    --titleButtonColor ;
-
-}
-*/
-
-h1 {
-    color: blue;
+    --backgroundColor: hsl(0, 13%, 92%);
+    --navigationText: hsl(24, 60%, 23%);
+    --titleColor: hsl(0, 0%, 0%);
+    --boxShadow: grey;
 }
 
-header span {
-    color: lightgray;
-    font-size: 3em;
+body {
+    background-color: var(--backgroundColor);
 }
 
-header {
-    background-color: gray;
+/*Icon and navigation*/
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: var(--navigationText);
+    font-size: 2em;
+    text-decoration: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 50px;
+}
+
+nav ul {
+    margin-top: 15px;
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+    border-radius: 33px;
+    border: solid 3px black;
+    box-shadow: 5px 5px 5px var(--boxShadow);
+}
+
+/*Hero Section*/
+.hero {
     
 }
 
+.hero li{
+    display: inline;
+}
+
+h1 {
+    font-size: 3em;
+    color: var(--titleColor);
+}
+
+/*Work showing Wordpress, YouTube, and two other pages*/
 .wordpress img{
     width: 500px;
     height: 300px;
