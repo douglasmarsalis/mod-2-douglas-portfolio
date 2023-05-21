@@ -6,3 +6,30 @@
 }
 */
 
+h1 {
+    color: blue;
+}
+
+header span {
+    color: lightgray;
+    font-size: 3em;
+}
+
+header {
+    background-color: gray;
+    
+}
+
+.wordpress img{
+    width: 500px;
+    height: 300px;
+    border: solid 4px black;
+    box-shadow: 10px 10px #888888;
+}
+
+.youtube img {
+    width: 500px;
+    height: 300px;
+    border: solid 4px black;
+    box-shadow: 10px 10px #888888;
+}
