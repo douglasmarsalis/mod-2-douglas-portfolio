@@ -3,6 +3,8 @@
     --backgroundColor: hsl(0, 13%, 92%);
     --navigationText: hsl(24, 60%, 23%);
     --titleColor: hsl(0, 0%, 0%);
+    --footerColor: hsl(24, 60%, 23%);
+    --otherTextColor: hsl(24, 60%, 23%);
     --boxShadow: grey;
 }
 
@@ -41,15 +43,32 @@ nav img {
 
 /*Hero Section*/
 .hero {
-    
+    margin-top: 250px;
+    line-height: 1.5em;
 }
 
 .hero li{
     display: inline;
+    line-height: 2em;
+    font-size: 1.5em;
+    margin-right: 10px;
+    color: var(--otherTextColor);
+}
+
+.hero p {
+    padding-top: 30px;
+    font-size: 1.5em;
+}
+
+.hero img {
+    width: 300px;
+    height: auto;
+    border-radius: 150px;
+    box-shadow: 10px 10px 10px var(--boxShadow);
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 4em;
     color: var(--titleColor);
 }
 
@@ -58,12 +77,25 @@ h1 {
     width: 500px;
     height: 300px;
     border: solid 4px black;
-    box-shadow: 10px 10px #888888;
+    box-shadow: 5px 5px var(--boxShadow);
 }
 
 .youtube img {
     width: 500px;
     height: 300px;
     border: solid 4px black;
-    box-shadow: 10px 10px #888888;
+    box-shadow: 5px 5px 5px 5px var(--boxShadow);
+}
+
+/*Footer contact information phone and email with Github and Linkedin links.*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+    margin: 20px;
+}
+
+h3 {
+    display: inline;
+    color: var(--footerColor);
 }
