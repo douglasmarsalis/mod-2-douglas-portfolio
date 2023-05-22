@@ -79,14 +79,10 @@ h1 {
 }
 
 /*Work showing Wordpress, YouTube, and two other pages*/
-.wordpress img{
-    width: 500px;
-    height: 300px;
-    border: solid 4px black;
-    box-shadow: 5px 5px 5px 5px var(--boxShadow);
-}
-
-.youtube img {
+.wordpress img, 
+.youtube img, 
+.club img, 
+.musashi img {
     width: 500px;
     height: 300px;
     border: solid 4px black;
