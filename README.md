@@ -34,16 +34,20 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Sources
 
-Eric Meyer CSS Reset
+Webpage design idea: alvarotrigo.com No.7 Gift Egwuenu_
+
+Eric Meyer CSS Reset:
 https://cssdeck.com/blog/scripts/eric-meyer-reset-css/
+
+Images: unsplash.com 
+Souvik Banerjee (Wordpress image)
+Nordwood Themes (Youtube image)
+Douglas Eric Marsalis (self-image)
+BrandCrowd (Bearded man logo)
 
 ## Link to Deployed Website
 
-
-
 ## Link to Github Repository
-
-
 
 ## Screenshot
 
@@ -59,7 +63,7 @@ N/A
 
 ## License
 
-### MIT License
+MIT License
 
 Copyright (c) 2023 Douglas Eric Marsalis
 
