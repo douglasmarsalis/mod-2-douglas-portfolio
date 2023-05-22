@@ -34,12 +34,12 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Sources
 
-Webpage design idea: alvarotrigo.com No.7 Gift Egwuenu_
+Webpage design idea: alvarotrigo.com No.7 Gift Egwuenu\_
 
 Eric Meyer CSS Reset:
 https://cssdeck.com/blog/scripts/eric-meyer-reset-css/
 
-Images: unsplash.com 
+Images: unsplash.com
 Souvik Banerjee (Wordpress image)
 Nordwood Themes (Youtube image)
 Douglas Eric Marsalis (self-image)
