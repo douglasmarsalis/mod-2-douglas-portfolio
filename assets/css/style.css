@@ -5,13 +5,14 @@
     --titleColor: hsl(0, 0%, 0%);
     --footerColor: hsl(24, 60%, 23%);
     --otherTextColor: hsl(24, 60%, 23%);
+    --buttonColor: grey;
     --boxShadow: grey;
 }
 
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 5px;
+    margin: 10px;
 }
 
 body {
@@ -49,6 +50,9 @@ nav img {
 
 /*Hero Section*/
 .hero {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 2fr 1fr;
     margin-top: 250px;
     line-height: 1.5em;
 }
@@ -79,14 +83,31 @@ h1 {
 }
 
 /*Work showing Wordpress, YouTube, and two other pages*/
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 .wordpress img, 
 .youtube img, 
 .club img, 
 .musashi img {
-    width: 500px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     border: solid 4px black;
     box-shadow: 5px 5px 5px 5px var(--boxShadow);
+}
+
+p > a{
+    position: relative;
+    z-index: 10;
+    padding: 16px;
+    border: solid 2px black;
+    background-color: var(--buttonColor);
+    color: whitesmoke;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 /*Footer contact information phone and email with Github and Linkedin links.*/
@@ -94,7 +115,7 @@ footer {
     display: flex;
     justify-content: space-between;
     font-size: 2em;
-    margin: 20px;
+    margin: 50px;
 }
 
 h3 {
