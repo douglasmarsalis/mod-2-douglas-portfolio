@@ -50,10 +50,10 @@ nav img {
 
 /*Hero Section*/
 .hero {
-    display: grid;
+    display: flex;
     justify-content: center;
-    grid-template-columns: 2fr 1fr;
-    margin-top: 250px;
+    margin-top: 200px;
+    margin-bottom: 150px;
     line-height: 1.5em;
 }
 
@@ -68,6 +68,7 @@ nav img {
 .hero p {
     padding-top: 30px;
     font-size: 1.5em;
+    line-height: 1.5em;
 }
 
 .hero img {
@@ -75,6 +76,7 @@ nav img {
     height: auto;
     border-radius: 150px;
     box-shadow: 10px 10px 10px var(--boxShadow);
+    margin-left: 10px;
 }
 
 h1 {
@@ -82,11 +84,17 @@ h1 {
     color: var(--titleColor);
 }
 
+span {
+    font-weight: 600;
+    color: var(--otherTextColor);
+}
+
 /*Work showing Wordpress, YouTube, and two other pages*/
 .work {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding-bottom: 30px;
 }
 
 .wordpress img, 
@@ -97,17 +105,20 @@ h1 {
     height: 200px;
     border: solid 4px black;
     box-shadow: 5px 5px 5px 5px var(--boxShadow);
-}
 
+}
+/*Button for work section images*/
 p > a{
-    position: relative;
+    position: static;
     z-index: 10;
     padding: 16px;
     border: solid 2px black;
+    box-shadow: 5px 5px 5px var(--boxShadow);
     background-color: var(--buttonColor);
     color: whitesmoke;
     border-radius: 5px;
     text-decoration: none;
+    margin-left: 100px;
 }
 
 /*Footer contact information phone and email with Github and Linkedin links.*/
