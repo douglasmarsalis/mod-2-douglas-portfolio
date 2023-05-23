@@ -23,6 +23,7 @@ body {
 nav {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 nav a {
@@ -52,6 +53,7 @@ nav img {
 .hero {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 200px;
     margin-bottom: 150px;
     line-height: 1.5em;
@@ -125,6 +127,7 @@ p > a{
 footer {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     font-size: 2em;
     margin: 50px;
 }
