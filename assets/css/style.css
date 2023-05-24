@@ -179,4 +179,17 @@ h3 {
     }
 }
 
-@media screen and (max-width: 1024px) {}
+/*iPad Devices Media queries 768px*/
+@media screen and (max-width: 768px) {
+
+}
+
+/*Laptop Devices Media queries 1024px*/
+@media screen and (max-width: 1024px) {
+    
+}
+
+/*Desktop Devices Media queries 1200px*/
+@media screen and (max-width: 1200px) {
+    
+}
