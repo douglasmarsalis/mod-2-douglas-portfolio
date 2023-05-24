@@ -80,6 +80,7 @@ nav img {
     padding-top: 30px;
     font-size: 1.5em;
     line-height: 1.5em;
+    width: 800px;
 }
 
 .hero img {
@@ -198,12 +199,6 @@ footer a {
     font-size: 3em;
     line-height: 1.5em;
     margin-left: 25px;
-    }
-/*This code removes the line break inside
-the paragraph and replaces it with a space.*/
-    p > br {
-    br(content: ' ';)
-    br:after(content:'';)
     }
 
     .work {
