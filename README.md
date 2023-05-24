@@ -46,9 +46,9 @@ Douglas Eric Marsalis (self-image)
 BrandCrowd (Bearded man logo)
 
 ## Link to Deployed Website
-
+https://douglasmarsalis.github.io/mod-2-douglas-portfolio/ 
 ## Link to Github Repository
-
+https://github.com/douglasmarsalis/mod-2-douglas-portfolio 
 ## Screenshot
 
 ![Screen shot of my webpage]()
