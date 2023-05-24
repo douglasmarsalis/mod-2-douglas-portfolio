@@ -181,12 +181,54 @@ h3 {
 
 /*iPad Devices Media queries 768px*/
 @media screen and (max-width: 768px) {
+    .hero {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    margin: 50px auto;
+    }
 
+    h1 {
+    font-size: 3em;
+    line-height: 1.5em;
+    margin-left: 25px;
+    }
+/*This code removes the line break inside
+the paragraph and replaces it with a space.*/
+    p > br {
+    br(content: ' ';)
+    br:after(content:'';)
+    }
+
+    .work {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px 40px;
+    }
+
+    footer {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2em;
+    }
 }
 
 /*Laptop Devices Media queries 1024px*/
 @media screen and (max-width: 1024px) {
-    
+    .hero {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    margin: 50px auto;
+    }
+
+    .work {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px 40px;
+    }
 }
 
 /*Desktop Devices Media queries 1200px*/

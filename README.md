@@ -46,6 +46,8 @@ Third item Images: unsplash.com
 - BrandCrowd (Bearded man logo)
 Fourth item https://emergestudio.design/how-to-put-a-button-on-top-of-an-image/ 
 Fifth item Referred to old web pages that I built to see how things were done on those pages.
+Sixth item Used code from this site to remove breaks in a paragraph.
+- https://www.gallagherwebsitedesign.com 
 
 ## Link to Deployed Website
 https://douglasmarsalis.github.io/mod-2-douglas-portfolio/ 
