@@ -34,16 +34,18 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Sources
 
-Webpage design idea: alvarotrigo.com No.7 Gift Egwuenu\_
-
-Eric Meyer CSS Reset:
+First item Webpage design idea: alvarotrigo.com No.7 Gift Egwuenu\_
+Second item Eric Meyer CSS Reset:
 https://cssdeck.com/blog/scripts/eric-meyer-reset-css/
-
-Images: unsplash.com
-Souvik Banerjee (Wordpress image)
-Nordwood Themes (Youtube image)
-Douglas Eric Marsalis (self-image)
-BrandCrowd (Bearded man logo)
+Third item Images: unsplash.com
+- Souvik Banerjee (Wordpress image)
+- Nordwood Themes (Youtube image)
+- Joshua Sortino (Orange optics)
+- Alexander Sinn (Black and White Code)
+- Douglas Eric Marsalis (self-image)
+- BrandCrowd (Bearded man logo)
+Fourth item https://emergestudio.design/how-to-put-a-button-on-top-of-an-image/ 
+Fifth item Referred to old web pages that I built to see how things were done on those pages.
 
 ## Link to Deployed Website
 https://douglasmarsalis.github.io/mod-2-douglas-portfolio/ 
@@ -51,7 +53,7 @@ https://douglasmarsalis.github.io/mod-2-douglas-portfolio/
 https://github.com/douglasmarsalis/mod-2-douglas-portfolio 
 ## Screenshot
 
-![Screen shot of my webpage]()
+![Screen shot of my webpage](assets/images/Screenshot_mod-2-Douglas-portfolio.png)
 
 # #Instalation
 
