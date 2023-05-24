@@ -233,5 +233,17 @@ the paragraph and replaces it with a space.*/
 
 /*Desktop Devices Media queries 1200px*/
 @media screen and (max-width: 1200px) {
-    
+    .hero {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    margin: 50px auto;
+    }
+
+    .work {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px 40px;
+        }
 }
