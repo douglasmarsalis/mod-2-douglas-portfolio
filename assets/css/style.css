@@ -145,6 +145,12 @@ h3 {
     display: inline;
     color: var(--footerColor);
 }
+
+footer a {
+    color: var(--navigationText);
+    font-size: 1em;
+    text-decoration: none;
+}
 /*Mobile Devices Media queries 480px*/
 @media screen and (max-width: 480px) {
     nav a {
