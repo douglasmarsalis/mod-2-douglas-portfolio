@@ -37,7 +37,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 First item Webpage design idea: alvarotrigo.com No.7 Gift Egwuenu\_
 Second item Eric Meyer CSS Reset:
 https://cssdeck.com/blog/scripts/eric-meyer-reset-css/
-Third item Images: unsplash.com
+Third item Images: upsplash.com
 - Souvik Banerjee (Wordpress image)
 - Nordwood Themes (Youtube image)
 - Joshua Sortino (Orange optics)
